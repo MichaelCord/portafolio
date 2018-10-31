@@ -142,6 +142,128 @@ figure {
 	width: 500px;
 }
 
+.certificates-title{
+	margin-left: 10px;
+}
+
+.certificate-list{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.certificate{
+	margin: 10px;
+	width: 310px;
+	flex-shrink: 0;
+	border-radius: 10px;
+	overflow: hidden;
+	background: #d3f6ff;
+}
+
+.certificate img{
+	width: 310px;
+	height: 170px;
+	object-fit: cover;
+}
+
+.certificate-details{
+	margin: 20px 40px;
+	margin-top: -5px;
+	background-color: white;
+	position: relative;
+	padding: 20px;
+	text-align: center;	
+}
+
+.certificate-description{
+	text-align: left;
+}
+
+.certificate-url{
+	color: #02c6fc;
+	border: 1px solid;
+	padding: 5px 20px;
+	text-decoration: none;
+	border-radius: 5px;	
+}
+
+.contact{
+	background-color:#02c6fc;
+	color: white;
+	height: 150px;
+	display: flex;
+	align-items:center;
+	justify-content:space-between;
+}
+
+.social-link{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 0 10px;
+	background-size: 50px 50px; 
+}
+
+.social-link.twitter{
+	background-image: url('../img/twitter.svg');
+}
+
+.social-link.facebook{
+	background-image: url('../img/facebook.svg');
+}
+
+.social-link.github{
+	background-image: url('../img/github.svg');
+}
+
+.social-link.instagram{
+	background-image: url('../img/instagram.svg');
+}
+
+/*.form-email input{
+	border-color: gray;
+	border-style: solid;
+	border-radius: 5px;
+	padding: 10px 20px 10px 25px;
+	background-image: url('../img/envelope.svg');
+	background-size: 15px 15px;
+	background-repeat: no-repeat;
+	background-position-y: center;
+	background-position-x: 5px;
+}
+
+.form-email button{
+	display: block;
+	background: transparent;
+	color: white;
+	padding: 10px 0;
+	border-radius: 5px;
+	width: 100px;
+	margin-top: 10px;
+}
+*/
+
+.form-email h3{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer{
+	color: white;
+	background-color: #037394;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer img{
+	vertical-align: middle;
+}
+
+.footer a{
+	color: white;
+}
+
 .container{
 	width: 1130px;
 	margin: 0 auto;
