@@ -126,6 +126,10 @@ figure {
 	margin: 10px 0;
 }
 
+.project-url a{
+	text-decoration:none;
+}
+
 .project strong{
 	font-family: 'Fjalla One', sans-serif;
 }
